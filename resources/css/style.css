@@ -1,0 +1,11 @@
+    .heart {
+        font-size: 3rem;
+        color: red;
+        transition: transform 2s ease-out, opacity 2s ease-out;
+        opacity: 0; /* Initial opacity set to 0 */
+    }
+
+    .heart.fly {
+        transform: translateX(100vw); /* Move the heart to the right */
+        opacity: 1; /* Make the heart visible */
+    }
